@@ -6,4 +6,5 @@ Applies the Louvain method for community detection to the chart-topper graph to 
 
 Dataset used found here: https://www.kaggle.com/datasets/jfreyberg/spotify-artist-feature-collaboration-network
 
+Brief Medium article (full research paper currently unpublished):
 https://medium.com/@raquelana/summary-of-research-paper-analysis-of-a-spotify-collaboration-network-for-small-world-properties-85b4bc094afe
