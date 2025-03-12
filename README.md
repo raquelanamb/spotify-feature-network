@@ -5,3 +5,24 @@ Investigates genre distributions and co-occurrences.
 Applies the Louvain method for community detection to the chart-topper graph to analyze communities for small-world properties.
 
 Dataset used found here: https://www.kaggle.com/datasets/jfreyberg/spotify-artist-feature-collaboration-network
+
+---
+
+Research paper publication in progress.
+Author: Raquel Ana M Bush
+MTH 565 - Network Analysis
+
+
+## Running the Notebook
+
+1. Open the Jupyter Notebook:
+```
+jupyter notebook spotify_feature_network.ipynb
+```
+2. Run the cells sequentially to:
+- Load the dataset.
+- Construct and analyze the graph and subgraphs.
+- Generate visualizations.
+3. Interpret the results from the plots and network statistics.
+
+
