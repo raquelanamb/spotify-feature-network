@@ -38,6 +38,12 @@ jupyter notebook spotify_feature_network.ipynb
   - Load the dataset.
   - Construct and analyze the graph and subgraphs.
   - Generate insightful visualizations.
-4. Interpret the results from the plots and network statistics.
+
+4. Make sure to change the lines defining nodes_path and edges_path to your own file paths:
+   ```
+   nodes_path = 'your nodes.csv file path'
+   edges_path = 'your edges.csv file path'
+   ```
+5. Interpret the results from the plots and network statistics. I've included guidance in markdown throughout.
 
 
