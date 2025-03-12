@@ -1,10 +1,11 @@
 # Spotify Feature Collaboration Network Analysis
-Constructs a graph of approximately 156,000 artists with over 300,000 collaborative connections. Analyzes for small-world properties and power law adherance.
-Then, focuses on the analysis of the seed artists who topped the Spotify weekly charts, looking at the small-world properties of various genre and country subgraphs.
-Investigates genre distributions and co-occurrences.
-Applies the Louvain method for community detection to the chart-topper graph to analyze communities for small-world properties.
+This project constructs and analyzes a Spotify artist collaboration network, containing ~156,000 artists and 300,000+ connections. Using network science techniques, it investigates small-world properties, power-law degree distribution, and community structures.
+- Examines the giant component and subgraphs based on genres & country-specific charts.
+- Applies Louvain community detection to identify collaboration clusters.
+- Investigates genre distributions and co-occurrences among chart-topping artists.
 
-Dataset used found here: https://www.kaggle.com/datasets/jfreyberg/spotify-artist-feature-collaboration-network
+This project utilizes the Spotify Artist Feature Collaboration Network dataset from Kaggle: 
+https://www.kaggle.com/datasets/jfreyberg/spotify-artist-feature-collaboration-network
 
 ---
 
@@ -12,16 +13,18 @@ Research paper publication efforts in progress.
 
 Author: Raquel Ana M Bush
 
-MTH 565 - Network Analysis
+Project begun for course: MTH 565 - Network Analysis (under Professor Dana Fine, University of Massachusetts Dartmouth)
 
 ---
 
 ## Running the Notebook
 
 1. Open the Jupyter Notebook:
-```
-jupyter notebook spotify_feature_network.ipynb
-```
+  ```
+  jupyter notebook spotify_feature_network.ipynb
+  ```
+(if needed, first install Jupyter Notebook: ```pip install notebook```)
+
 2. Install dependencies:
   ```
   pip install pandas
@@ -34,16 +37,17 @@ jupyter notebook spotify_feature_network.ipynb
   pip install py4cytoscape
   ```
 
-3. Run the cells sequentially to:
+3. Modify the following lines in the notebook to point to your local dataset paths:
+  ```
+  nodes_path = "your_nodes.csv_file_path"
+  edges_path = "your_edges.csv_file_path"
+  ```
+
+4. Run the cells sequentially to:
   - Load the dataset.
   - Construct and analyze the graph and subgraphs.
-  - Generate insightful visualizations.
+  - Generate visualizations of communities, distributions, clustering, and diameter properties.
 
-4. Make sure to change the lines defining nodes_path and edges_path to your own file paths:
-   ```
-   nodes_path = 'your nodes.csv file path'
-   edges_path = 'your edges.csv file path'
-   ```
 5. Interpret the results from the plots and network statistics. I've included guidance in markdown throughout.
 
 
