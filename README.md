@@ -23,7 +23,7 @@ Project begun for course: MTH 565 - Network Analysis (under Professor Dana Fine,
   ```
   jupyter notebook spotify_feature_network.ipynb
   ```
-(if needed, first install Jupyter Notebook: ```pip install notebook```)
+(If Jupyter Notebook is not installed, run: ```pip install notebook```)
 
 2. Install dependencies:
   ```
