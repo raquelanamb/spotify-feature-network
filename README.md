@@ -22,10 +22,22 @@ MTH 565 - Network Analysis
 ```
 jupyter notebook spotify_feature_network.ipynb
 ```
-2. Run the cells sequentially to:
+2. Install dependencies:
+  ```
+  pip install pandas
+  pip install networkx
+  pip install numpy
+  pip install matplotlib
+  pip install scipy
+  pip install scikit-learn
+  pip install community
+  pip install py4cytoscape
+  ```
+
+3. Run the cells sequentially to:
   - Load the dataset.
   - Construct and analyze the graph and subgraphs.
   - Generate insightful visualizations.
-3. Interpret the results from the plots and network statistics.
+4. Interpret the results from the plots and network statistics.
 
 
