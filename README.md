@@ -8,7 +8,7 @@ Dataset used found here: https://www.kaggle.com/datasets/jfreyberg/spotify-artis
 
 ---
 
-Research paper publication in progress.
+Research paper publication efforts in progress.
 
 Author: Raquel Ana M Bush
 
