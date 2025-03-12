@@ -9,7 +9,9 @@ Dataset used found here: https://www.kaggle.com/datasets/jfreyberg/spotify-artis
 ---
 
 Research paper publication in progress.
+
 Author: Raquel Ana M Bush
+
 MTH 565 - Network Analysis
 
 
