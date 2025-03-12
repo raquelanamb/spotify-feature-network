@@ -23,9 +23,9 @@ MTH 565 - Network Analysis
 jupyter notebook spotify_feature_network.ipynb
 ```
 2. Run the cells sequentially to:
-- Load the dataset.
-- Construct and analyze the graph and subgraphs.
-- Generate insightful visualizations.
+  - Load the dataset.
+  - Construct and analyze the graph and subgraphs.
+  - Generate insightful visualizations.
 3. Interpret the results from the plots and network statistics.
 
 
