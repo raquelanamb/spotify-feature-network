@@ -14,6 +14,7 @@ Author: Raquel Ana M Bush
 
 MTH 565 - Network Analysis
 
+---
 
 ## Running the Notebook
 
