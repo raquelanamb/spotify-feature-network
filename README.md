@@ -25,7 +25,7 @@ jupyter notebook spotify_feature_network.ipynb
 2. Run the cells sequentially to:
 - Load the dataset.
 - Construct and analyze the graph and subgraphs.
-- Generate visualizations.
+- Generate insightful visualizations.
 3. Interpret the results from the plots and network statistics.
 
 
