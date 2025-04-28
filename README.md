@@ -9,9 +9,9 @@ https://www.kaggle.com/datasets/jfreyberg/spotify-artist-feature-collaboration-n
 
 ---
 
-Research paper publication efforts in progress.
-
 Author: Raquel Ana M Bush
+
+My research paper can be found here: https://arxiv.org/abs/2503.09526v1
 
 Project begun for course: MTH 565 - Network Analysis (under Professor Dana Fine, University of Massachusetts Dartmouth)
 
